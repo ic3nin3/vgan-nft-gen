@@ -1,0 +1,8 @@
+{
+    "version": "2.0.0",
+    "tasks": [{
+        "label": "setup",
+        "command": "git clone https://github.com/openai/CLIP;git clone https://github.com/CompVis/taming-transformers;mkdir steps;mkdir images;mkdir output;mkdir metadata", 
+        "type": "shell"
+    }]
+}
